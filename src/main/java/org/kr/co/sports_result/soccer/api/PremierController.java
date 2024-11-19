@@ -1,10 +1,9 @@
-package org.kr.co.sports_result.soccer.Controller;
+package org.kr.co.sports_result.soccer.api;
 
 import lombok.RequiredArgsConstructor;
-import org.kr.co.sports_result.soccer.Service.PremierService;
+import org.kr.co.sports_result.soccer.application.PremierService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

@@ -1,4 +1,4 @@
-package org.kr.co.sports_result.soccer.Repository.entity;
+package org.kr.co.sports_result.soccer.infrastructure.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,9 +15,9 @@ public class PremierResultEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String leagueName;   // 리그 이름
+    private String eventStartDate;    // 경기 시작 시간
+    private String eventEndDate;    // 경기 종료 시간
     private String eventName;    // 이벤트 이름
-    private String venueName;    // 경기장 이름
 
     private String homeTeam;     // 홈 팀 이름
     private int homeScore;       // 홈 팀 점수
@@ -25,5 +25,5 @@ public class PremierResultEntity {
     private String awayTeam;     // 원정 팀 이름
     private int awayScore;       // 원정 팀 점수
 
-    private String result;       // 경기 결과: "Win", "Lose", "Draw"
+    private String result;   // 경기 결과
 }

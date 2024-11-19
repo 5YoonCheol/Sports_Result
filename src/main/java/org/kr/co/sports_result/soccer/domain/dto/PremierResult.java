@@ -1,4 +1,4 @@
-package org.kr.co.sports_result.soccer.Dto;
+package org.kr.co.sports_result.soccer.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
